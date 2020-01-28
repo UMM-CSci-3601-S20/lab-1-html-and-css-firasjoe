@@ -103,6 +103,15 @@ img.pic {
     border: 4px solid #000000;
 }
 
+#tools {
+  background-color: white;
+}
+
+#tools-list li.cloud:after {
+color: #9cf;
+content: "☁";
+}
+
 #style ul {
     list-style-type: none;
     margin: 0;
@@ -113,15 +122,6 @@ img.pic {
 
 #style li {
     float: left; /*explore what happens if this is 'right' instead*/
-}
-
-#tools {
-  background-color: white;
-}
-
-#tools-list li.cloud:after {
-  content: "☁";
-  color: #9cf;
 }
 
 #style li a {

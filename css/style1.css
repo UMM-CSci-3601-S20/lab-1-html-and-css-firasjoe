@@ -115,6 +115,11 @@ img.pic {
     float: left; /*explore what happens if this is 'right' instead*/
 }
 
+#tools-list li.cloud:after {
+  content: "☁";
+  color: lightgrey;
+}
+
 #style li a {
     display: block;
     color: white;

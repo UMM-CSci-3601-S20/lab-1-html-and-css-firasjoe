@@ -21,17 +21,17 @@ body {
  */
 @media screen and (min-width: 925px) {
     .pslo-courses-container {
-      display: flex;
-      flex-direction: row;
-      max-width: 53em;
+        display: flex;
+        flex-direction: row;
+        max-width: 53em;
     }
 }
 
 .faculty-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 #main-title {
@@ -90,12 +90,12 @@ h2 {
 }
 
 .name {
-  font-family: 'Dancing Script', cursive;
-  font-size: 2rem;
+    font-family: 'Dancing Script', cursive;
+    font-size: 2rem;
 }
 
 .office {
-  font-family: 'Marcellus', sans-sans-serif;;
+    font-family: 'Marcellus', sans-sans-serif;;
 }
 
 img.pic {
@@ -104,12 +104,12 @@ img.pic {
 }
 
 #tools {
-  background-color: white;
+    background-color: white;
 }
 
 #tools-list li.cloud:after {
-color: #9cf;
-content: "☁";
+    color: #9cf;
+    content: "☁";
 }
 
 #style ul {
@@ -148,7 +148,7 @@ content: "☁";
 }
 
 #validation {
-  font-size: 80%;
-  background-color: #d5d6d2;
-  padding: 25px;
+    font-size: 80%;
+    background-color: #d5d6d2;
+    padding: 25px;
 }

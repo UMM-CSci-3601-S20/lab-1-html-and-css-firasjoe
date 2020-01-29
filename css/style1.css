@@ -23,7 +23,7 @@ body {
     .pslo-courses-container {
         display: flex;
         flex-direction: row;
-        max-width: 53em;
+        max-width: 48em;
     }
 }
 
@@ -32,6 +32,11 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    max-width: 48em;
+}
+
+.tools-container {
+    max-width: 48em;
 }
 
 #main-title {
@@ -50,7 +55,6 @@ h2 {
     padding: 20px;
     border: 5px solid;
     margin: 10px;
-    max-width: 48em;
 }
 
 #courses {

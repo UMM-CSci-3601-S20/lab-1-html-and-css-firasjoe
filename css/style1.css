@@ -23,20 +23,30 @@ body {
     .pslo-courses-container {
         display: flex;
         flex-direction: row;
-        max-width: 48em;
+        width: 75%;
+    }
+
+    .faculty-container {
+        width: 75%;
+    }
+
+    .tools-container {
+        width: 75%;
     }
 }
 
-.faculty-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    max-width: 48em;
-}
+@media screen and (max-width: 925px) {
+    .pslo-courses-container {
+        width: 90%;
+    }
 
-.tools-container {
-    max-width: 48em;
+    .faculty-container {
+        width: 90%;
+    }
+
+    .tools-container {
+        width: 90%;
+    }
 }
 
 #main-title {

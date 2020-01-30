@@ -35,3 +35,20 @@ h1 {
 #courses ul {
     list-style: circle;
 }
+
+#faculty ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: center;
+  list-style: none;
+}
+
+.name, .office {
+  text-align: center;
+}
+
+img {
+  border-radius: 7%;
+}

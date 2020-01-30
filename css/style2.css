@@ -26,3 +26,8 @@ h1 {
   text-align: center;
   padding-block-end: 10px;
 }
+
+#courses ul {
+    list-style: none;
+    padding-left: 20px;
+}

@@ -8,10 +8,17 @@
 
 body {
     padding: 30px;
-    background-color: #ffffff;
+    background-color: #def;
     font-family: 'Roboto Condensed', sans-serif;
+    color: darkslategray;
+
+    border: dotted darkslategray;
 }
 
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+  text-align: center;
 }

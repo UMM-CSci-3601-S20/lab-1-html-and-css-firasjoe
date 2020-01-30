@@ -56,3 +56,20 @@ h2 {
 img {
   border-radius: 7%;
 }
+
+.tools-container {
+  border-bottom: solid thin darkslategray;
+}
+
+.tools-legend {
+  display: none;
+}
+
+.card {
+  margin: 30px 10px;
+}
+
+.card h6 {
+  font-size: 105%;
+  margin: 0.5em 0;
+}

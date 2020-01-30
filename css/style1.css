@@ -127,9 +127,9 @@ img.pic {
     background-color: #FFDE7A;
 }
 
-#tools-list li.cloud:after {
+li.cloud:after {
     color: #9cf;
-    content: "☁";
+    content: " ☁";
 }
 
 #style ul {

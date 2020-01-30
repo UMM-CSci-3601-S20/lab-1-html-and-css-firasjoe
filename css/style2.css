@@ -1,12 +1,17 @@
 /*
-hint:
-use # in front of the name of an id from your html page
-use . in front of the name of a class of things from your html page
-use , to separate a list of things that have some shared css rule
-use float to make something locate itself on the right or left
-*/
+ * hint:
+ * use # in front of the name of an id from your html page
+ * use . in front of the name of a class of things from your html page
+ * use , to separate a list of things that have some shared css rule
+ * use float to make something locate itself on the right or left
+ */
 
-body{
+body {
     padding: 30px;
     background-color: #ffffff;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Poppins', sans-serif;
 }

@@ -6,9 +6,14 @@
  * use float to make something locate itself on the right or left
  */
 
+html {
+  background-color: #def;
+}
+
 body {
-    padding: 30px;
-    background-color: #def;
+    margin: 30px;
+    padding-left: 30px;
+    background-color: white;
     font-family: 'Roboto', sans-serif;
     color: darkslategray;
     border: dotted darkslategray;

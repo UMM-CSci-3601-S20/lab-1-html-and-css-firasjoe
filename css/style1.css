@@ -124,7 +124,7 @@ img.pic {
  * additions, since the additions use the .section class.)
  */
 #tools {
-    background-color: white;
+    background-color: #FFDE7A;
 }
 
 #tools-list li.cloud:after {

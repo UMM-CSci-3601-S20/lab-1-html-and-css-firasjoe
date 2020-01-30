@@ -127,9 +127,30 @@ img.pic {
     background-color: #FFDE7A;
 }
 
-li.cloud:after {
+#tools li {
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
+}
+
+#tools li a {
+  text-decoration: none;
+}
+
+#tools li.cloud:after {
     color: #9cf;
     content: " ☁";
+}
+
+#tools  li.version-control {
+    font-weight: bold;
+}
+
+#tools li.ide {
+    font-style: oblique;
+}
+
+#tools li.testing {
+    text-decoration: underline double;
 }
 
 #style ul {

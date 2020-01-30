@@ -54,6 +54,11 @@ h2 {
   justify-content: space-around;
   align-content: center;
   list-style: none;
+  padding: 0;
+}
+
+#faculty li {
+  margin-bottom: 20px;
 }
 
 .name, .office {
@@ -101,7 +106,6 @@ img {
   flex-wrap: wrap;
   justify-content: flex-end;
   align-content: center;
-
   margin: 10px 0 0 0;
   padding: 0;
 }

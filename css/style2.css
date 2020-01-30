@@ -17,6 +17,8 @@ body {
     font-family: 'Roboto', sans-serif;
     color: darkslategray;
     border: dotted darkslategray;
+
+    display: table;
 }
 
 a {
@@ -86,4 +88,31 @@ img {
 .card h6 {
   font-size: 105%;
   margin: 0.5em 0;
+}
+
+#style {
+  display: table-header-group;
+}
+
+#style ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  align-content: center;
+
+  margin: 10px 0 0 0;
+  padding: 0;
+}
+
+#style a {
+  color: white;
+}
+
+#style li {
+  margin: 10px 5px;
+  padding: 5px 10px;
+  border-radius: 7%;
+  background: darkslategrey;
 }

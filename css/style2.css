@@ -10,14 +10,23 @@ html {
   background-color: #def;
 }
 
+/*
+ * Please grade this rule.
+ */
 body {
+    /* Set the margins of body to 30px (so we can see some of the blue background behind). */
     margin: 30px;
+    /* Add horizontal padding of 30px. */
     padding: 0 30px;
+    /* Set the background color to white (for easy legibility). */
     background-color: white;
+    /* Set the font-family to a nice, simple sans-serif font. */
     font-family: 'Roboto', sans-serif;
+    /* Set the font-color to dark slate grey. */
     color: darkslategray;
+    /* Add a dark slate grey dotted border to the body. */
     border: dotted darkslategray;
-
+    /* Use a table arrangement to enable moving the style list to the top. */
     display: table;
 }
 
@@ -30,7 +39,13 @@ a {
   margin: 30px 10px;
 }
 
+/*
+ * Please grade this rule.
+ *
+ * Here is an example that uses grouping; we're selecting all headings and sub-headings.
+ */
 h1, h2, h3, h4, h5, h6 {
+  /* Use a related sans-serif font to the one used before. */
     font-family: 'Roboto Condensed', sans-serif;
 }
 
@@ -47,6 +62,7 @@ h2 {
     list-style: circle;
 }
 
+/* We used the same code from the style1.css file for this rule. */
 #faculty ul {
   display: flex;
   flex-direction: row;
@@ -78,6 +94,7 @@ img {
 }
 
 #tools li.cloud:after {
+  /* Add a cloud icon next to cloud tools. */
   color: #9cf;
   content: " ☁";
 }
@@ -86,7 +103,17 @@ img {
   display: none;
 }
 
+/*
+ * Please grade this rule.
+ *
+ * Here is an example that uses a class; we're selecting the
+ * validation card at the end of the webpage.
+ *
+ * At the moment, the webpage only has one card, but if we added
+ * more later, they would have the same styling.
+ */
 .card {
+  /* Set margins to 30px vertically and 10px horizontally (same as the section class). */
   margin: 30px 10px;
 }
 
@@ -99,14 +126,28 @@ img {
   display: table-header-group;
 }
 
+/*
+ * Please grade this rule.
+ *
+ * Here is an example that uses nesting; we're selecting the
+ * particular ul that lives inside the #style div.
+ */
 #style ul {
+  /* Remove the bullets originally found on the list. */
   list-style: none;
+  /* Use the flex controls on the list for arrangement. */
   display: flex;
+  /* Arrange the list items horizontally. */
   flex-direction: row;
+  /* Wrap the list items if the width is too small. */
   flex-wrap: wrap;
+  /* Justify the content to the right end of the screen. */
   justify-content: flex-end;
+  /* Center the content top-to-bottom. */
   align-content: center;
+  /* Set the margins of the list to 10px on the top and 0px to the rest. */
   margin: 10px 0 0 0;
+  /* Set padding to 0 (normally lists get padding automatically). */
   padding: 0;
 }
 
@@ -114,9 +155,25 @@ img {
   color: white;
 }
 
+/*
+ * Please grade this rule.
+ *
+ * Here is an example that uses an id; we're selecting the
+ * list items inside the particular style div.
+ */
 #style li {
+  /* Set vertical margins to 10px and the horizontal margins to 5px
+   * (this puts some space between the items). */
   margin: 10px 5px;
+  /* Add padding of 5px vertically and 10px horizontally
+   * (this makes the list items bigger). */
   padding: 5px 10px;
+  /* Crop the corners of the items to give them a more circular shape
+   * (this makes them look more like buttons). */
   border-radius: 7%;
+  /* Set the background color of the items to dark slate grey
+   * (to match the body's text).
+   * We previously set the link text to white, so that it's visible on
+   * a dark background. */
   background: darkslategrey;
 }

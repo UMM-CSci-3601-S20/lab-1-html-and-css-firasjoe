@@ -97,7 +97,7 @@ h2 {
     flex-direction: row;
     flex-wrap: wrap; /* This tell's the flex items to wrap if there
                         isn't enough space for all of the items. Without this the
-                        faculty images will be in a row and only resize well unitl around
+                        faculty images will be in a row and only resize well until around
                         550px width of screen. */
     justify-content: center;
     align-content: center;
@@ -137,6 +137,7 @@ img.pic {
 }
 
 #tools li.cloud:after {
+    /* Add a cloud icon next to cloud tools. */
     color: #9cf;
     content: " ☁";
 }

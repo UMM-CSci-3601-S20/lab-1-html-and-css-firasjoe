@@ -31,12 +31,12 @@ body {
 }
 
 a {
-  text-decoration: none;
-  color: #19a6a6;
+    text-decoration: none;
+    color: #19a6a6;
 }
 
-.section{
-  margin: 30px 10px;
+.section {
+    margin: 30px 10px;
 }
 
 /*
@@ -45,17 +45,17 @@ a {
  * Here is an example that uses grouping; we're selecting all headings and sub-headings.
  */
 h1, h2, h3, h4, h5, h6 {
-  /* Use a related sans-serif font to the one used before. */
+    /* Use a related sans-serif font to the one used before. */
     font-family: 'Roboto Condensed', sans-serif;
 }
 
 h1 {
-  text-align: center;
-  padding-block-end: 10px;
+    text-align: center;
+    padding-block-end: 10px;
 }
 
 h2 {
-  border-bottom: solid thin darkslategray;
+    border-bottom: solid thin darkslategray;
 }
 
 #courses ul {
@@ -64,43 +64,43 @@ h2 {
 
 /* We used the same code from the style1.css file for this rule. */
 #faculty ul {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  align-content: center;
-  list-style: none;
-  padding: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+    list-style: none;
+    padding: 0;
 }
 
 #faculty li {
-  margin-bottom: 20px;
+    margin-bottom: 20px;
 }
 
 .name, .office {
-  text-align: center;
+    text-align: center;
 }
 
 img {
-  border-radius: 7%;
+    border-radius: 7%;
 }
 
 .tools-container {
-  border-bottom: solid thin darkslategray;
+   border-bottom: solid thin darkslategray;
 }
 
 #tools li {
-  margin: 0.2em 0;
+   margin: 0.2em 0;
 }
 
 #tools li.cloud:after {
-  /* Add a cloud icon next to cloud tools. */
-  color: #9cf;
-  content: " ☁";
+    /* Add a cloud icon next to cloud tools. */
+    color: #9cf;
+    content: " ☁";
 }
 
 .tools-legend {
-  display: none;
+    display: none;
 }
 
 /*
@@ -113,13 +113,13 @@ img {
  * more later, they would have the same styling.
  */
 .card {
-  /* Set margins to 30px vertically and 10px horizontally (same as the section class). */
-  margin: 30px 10px;
+    /* Set margins to 30px vertically and 10px horizontally (same as the section class). */
+    margin: 30px 10px;
 }
 
 .card h6 {
-  font-size: 105%;
-  margin: 0.5em 0;
+    font-size: 105%;
+    margin: 0.5em 0;
 }
 
 #style {
@@ -133,26 +133,26 @@ img {
  * particular ul that lives inside the #style div.
  */
 #style ul {
-  /* Remove the bullets originally found on the list. */
-  list-style: none;
-  /* Use the flex controls on the list for arrangement. */
-  display: flex;
-  /* Arrange the list items horizontally. */
-  flex-direction: row;
-  /* Wrap the list items if the width is too small. */
-  flex-wrap: wrap;
-  /* Justify the content to the right end of the screen. */
-  justify-content: flex-end;
-  /* Center the content top-to-bottom. */
-  align-content: center;
-  /* Set the margins of the list to 10px on the top and 0px to the rest. */
-  margin: 10px 0 0 0;
-  /* Set padding to 0 (normally lists get padding automatically). */
-  padding: 0;
+    /* Remove the bullets originally found on the list. */
+    list-style: none;
+    /* Use the flex controls on the list for arrangement. */
+    display: flex;
+    /* Arrange the list items horizontally. */
+    flex-direction: row;
+    /* Wrap the list items if the width is too small. */
+    flex-wrap: wrap;
+    /* Justify the content to the right end of the screen. */
+    justify-content: flex-end;
+    /* Center the content top-to-bottom. */
+    align-content: center;
+    /* Set the margins of the list to 10px on the top and 0px to the rest. */
+    margin: 10px 0 0 0;
+    /* Set padding to 0 (normally lists get padding automatically). */
+    padding: 0;
 }
 
 #style a {
-  color: white;
+    color: white;
 }
 
 /*
@@ -162,18 +162,18 @@ img {
  * list items inside the particular style div.
  */
 #style li {
-  /* Set vertical margins to 10px and the horizontal margins to 5px
-   * (this puts some space between the items). */
-  margin: 10px 5px;
-  /* Add padding of 5px vertically and 10px horizontally
-   * (this makes the list items bigger). */
-  padding: 5px 10px;
-  /* Crop the corners of the items to give them a more circular shape
-   * (this makes them look more like buttons). */
-  border-radius: 7%;
-  /* Set the background color of the items to dark slate grey
-   * (to match the body's text).
-   * We previously set the link text to white, so that it's visible on
-   * a dark background. */
-  background: darkslategrey;
+    /* Set vertical margins to 10px and the horizontal margins to 5px
+    * (this puts some space between the items). */
+    margin: 10px 5px;
+    /* Add padding of 5px vertically and 10px horizontally
+    * (this makes the list items bigger). */
+    padding: 5px 10px;
+    /* Crop the corners of the items to give them a more circular shape
+    * (this makes them look more like buttons). */
+    border-radius: 7%;
+    /* Set the background color of the items to dark slate grey
+    * (to match the body's text).
+    * We previously set the link text to white, so that it's visible on
+    * a dark background. */
+    background: darkslategrey;
 }

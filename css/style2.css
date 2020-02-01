@@ -7,7 +7,7 @@
  */
 
 html {
-  background-color: #def;
+    background-color: #def;
 }
 
 /*
@@ -85,11 +85,11 @@ img {
 }
 
 .tools-container {
-   border-bottom: solid thin darkslategray;
+    border-bottom: solid thin darkslategray;
 }
 
 #tools li {
-   margin: 0.2em 0;
+    margin: 0.2em 0;
 }
 
 #tools li.cloud:after {

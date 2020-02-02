@@ -150,8 +150,9 @@ img.pic {
     font-style: oblique;
 }
 
-#tools li.testing {
+#tools li.testing, #tools li.testing>a {
     text-decoration: underline double;
+    -webkit-text-decoration: underline double;
 }
 
 #style ul {
